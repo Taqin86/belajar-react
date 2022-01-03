@@ -3,10 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import HelloWorld from './component/HelloComponent';
+import StateFullComponent from './container/StateFullComponent';
 
-const HelloWorld = () => {
-  return <p>Hello World</p>
-}
+
 ReactDOM.render( <HelloWorld />, document.getElementById('root'));
 
 // If you want to start measuring performance in your app, pass a function
